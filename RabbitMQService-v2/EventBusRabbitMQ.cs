@@ -85,16 +85,6 @@ namespace RabbitMQService_v2
                 var properties = consumerChannel.CreateBasicProperties();
                 properties.DeliveryMode = 2;
 
-                consumerChannel.QueueDeclare(queue: GetSubName(eventName),
-                    durable: true,
-                    exclusive: false,
-                    autoDelete: false,
-                    arguments: null);
-
-                consumerChannel.QueueBind(queue: GetSubName(eventName),
-                             exchange: EventBusConfig.DefaultTopicName,
-                           routingKey: eventName);
-
                 consumerChannel.BasicPublish(
                     exchange: EventBusConfig.DefaultTopicName,
                     routingKey: eventName,
