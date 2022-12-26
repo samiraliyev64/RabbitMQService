@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jCnrGjebE/5VicSB0v6ufgYDNR8OJCaB7Nyk1GwDuBtx/OooWJAfUo8RqSaC42cm2pm7QGmo1FMBQo7IKlgXfw==",
+  "dgSpecHash": "g4+norhl7yjqboyUh0F5p2Azxpw5tn9YDoQdqD7DT5vbqRW6fTvtEnoHqMKaC44stM965KERuk0bjpgBWBkqyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Desktop\\CurrencyApp\\RabbitMQService-v2\\RabbitMQService-v2\\RabbitMQService-v2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\mstest.testframework\\3.0.0\\mstest.testframework.3.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",

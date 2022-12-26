@@ -91,6 +91,10 @@ namespace RabbitMQService_v2
                     autoDelete: false,
                     arguments: null);
 
+                consumerChannel.QueueBind(queue: GetSubName(eventName),
+                             exchange: EventBusConfig.DefaultTopicName,
+                           routingKey: eventName);
+
                 consumerChannel.BasicPublish(
                     exchange: EventBusConfig.DefaultTopicName,
                     routingKey: eventName,
@@ -124,7 +128,6 @@ namespace RabbitMQService_v2
             SubsManager.AddSubscription<T, TH>();
             StartBasicConsume(eventName);
         }
-
 
         public override void UnSubscribe<T, TH>()
         {
